@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\xcoder62\\source\\repos\\CodeWarsConsoleApp\\CodeWarsConsoleApp\\CodeWarsConsoleApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\xcoder62\\source\\repos\\CodeWarsConsoleApp\\CodeWarsConsoleApp\\CodeWarsConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\xcoder62\\source\\repos\\CodeWarsConsoleApp\\CodeWarsConsoleApp\\CodeWarsConsoleApp.csproj",
+        "projectName": "CodeWarsConsoleApp",
+        "projectPath": "C:\\Users\\xcoder62\\source\\repos\\CodeWarsConsoleApp\\CodeWarsConsoleApp\\CodeWarsConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\xcoder62\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xcoder62\\source\\repos\\CodeWarsConsoleApp\\CodeWarsConsoleApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xcoder62\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

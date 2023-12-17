@@ -1,0 +1,15 @@
+C:\Users\xcoder62\source\repos\CodeWarsConsoleApp\CodeWarsConsoleApp\obj\Debug\net6.0\CodeWarsConsoleApp.csproj.AssemblyReference.cache
+C:\Users\xcoder62\source\repos\CodeWarsConsoleApp\CodeWarsConsoleApp\obj\Debug\net6.0\CodeWarsConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xcoder62\source\repos\CodeWarsConsoleApp\CodeWarsConsoleApp\obj\Debug\net6.0\CodeWarsConsoleApp.AssemblyInfoInputs.cache
+C:\Users\xcoder62\source\repos\CodeWarsConsoleApp\CodeWarsConsoleApp\obj\Debug\net6.0\CodeWarsConsoleApp.AssemblyInfo.cs
+C:\Users\xcoder62\source\repos\CodeWarsConsoleApp\CodeWarsConsoleApp\obj\Debug\net6.0\CodeWarsConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\xcoder62\source\repos\CodeWarsConsoleApp\CodeWarsConsoleApp\bin\Debug\net6.0\CodeWarsConsoleApp.exe
+C:\Users\xcoder62\source\repos\CodeWarsConsoleApp\CodeWarsConsoleApp\bin\Debug\net6.0\CodeWarsConsoleApp.deps.json
+C:\Users\xcoder62\source\repos\CodeWarsConsoleApp\CodeWarsConsoleApp\bin\Debug\net6.0\CodeWarsConsoleApp.runtimeconfig.json
+C:\Users\xcoder62\source\repos\CodeWarsConsoleApp\CodeWarsConsoleApp\bin\Debug\net6.0\CodeWarsConsoleApp.dll
+C:\Users\xcoder62\source\repos\CodeWarsConsoleApp\CodeWarsConsoleApp\bin\Debug\net6.0\ref\CodeWarsConsoleApp.dll
+C:\Users\xcoder62\source\repos\CodeWarsConsoleApp\CodeWarsConsoleApp\bin\Debug\net6.0\CodeWarsConsoleApp.pdb
+C:\Users\xcoder62\source\repos\CodeWarsConsoleApp\CodeWarsConsoleApp\obj\Debug\net6.0\CodeWarsConsoleApp.dll
+C:\Users\xcoder62\source\repos\CodeWarsConsoleApp\CodeWarsConsoleApp\obj\Debug\net6.0\ref\CodeWarsConsoleApp.dll
+C:\Users\xcoder62\source\repos\CodeWarsConsoleApp\CodeWarsConsoleApp\obj\Debug\net6.0\CodeWarsConsoleApp.pdb
+C:\Users\xcoder62\source\repos\CodeWarsConsoleApp\CodeWarsConsoleApp\obj\Debug\net6.0\CodeWarsConsoleApp.genruntimeconfig.cache
