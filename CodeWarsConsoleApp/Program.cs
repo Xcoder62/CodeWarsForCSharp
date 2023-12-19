@@ -130,3 +130,8 @@ Console.WriteLine(Kata.IsIsogram("isogram"));
 Console.WriteLine(Kata.IsIsogram("moose"));
 
 Console.WriteLine(Kata.ToJadenCase("This is a Test"));
+
+foreach (var item in Kata.OpenOrSenior(new[] { new[] { 18, 20 }, new[] { 61, 12 } } )) {
+    Console.WriteLine(item);
+
+}

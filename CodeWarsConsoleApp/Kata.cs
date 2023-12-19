@@ -663,7 +663,7 @@ namespace CodeWarsConsoleApp
 
         // RANK 5 UP START
         // Retry 0/3
-        // Kyu 7 2/5
+        // Kyu 7 3/5
         // Fail?: N
      
         // pass
@@ -701,5 +701,30 @@ namespace CodeWarsConsoleApp
             //return result;
         }
 
+        //pass
+        public static IEnumerable<string> OpenOrSenior(int[][] data)
+        {
+
+            // one liner
+            // for each member in the data, 
+            // if we meet the creiteria,
+            // return string "Senior" or "Open" and if its not the only pair, keep adding to the list
+            return data.Select(member => member[0] >= 55 && member[1] > 7 ? "Senior" : "Open");
+
+
+            List<string> result = new List<string>();
+            foreach (int[] pair in data)
+            {
+                if (pair[0] >= 55 && pair[1] > 7)
+                {
+                    result.Add("Senior");
+                } else
+                {
+                    result.Add("Open");
+                }
+            }
+
+            return result;
+        }
     }
 }
