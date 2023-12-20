@@ -663,7 +663,7 @@ namespace CodeWarsConsoleApp
 
         // RANK 5 UP START
         // Retry 0/3
-        // Kyu 7 3/5
+        // Kyu 7 4/5 (1 fail)
         // Fail?: N
      
         // pass
@@ -682,7 +682,7 @@ namespace CodeWarsConsoleApp
             // kata
             return str.ToLower().Distinct().Count() == str.Length; 
 
-
+            // 617 471 5686
         }
 
         // pass
@@ -725,6 +725,59 @@ namespace CodeWarsConsoleApp
             }
 
             return result;
+        }
+
+        // failed
+        public static long RowSumOddNumbers(long n)
+        {
+
+
+
+            // chatgpt answer with 4
+            // what I was orignally going for
+            long startNumber = 1;
+            for (long i = 2; i <= n; i++)
+            {
+                // with n = 4
+                // 1 , 3, 7, 13
+                startNumber += 2 * (i - 1); // trianglular sequence calculation.
+            }
+
+            long sum = 0;
+            for (long j = 0; j < n; j++)
+            {
+                sum += startNumber + 2 * j; // adds the consequenctive numbers of the row.
+            }
+
+            return sum;
+
+
+
+
+            // kata solution, cuz square numbers being the average and math
+            // To get the sum of a sequence: we can multiply the average by the number of terms in the sequence,
+            // we also see through math the middle number (also the average) is a square number of the row
+            // so we can multiple n *n * n to get the answer
+            // in other words, we needed to google how to get the sum of a sequence to get the equation needed to solve this.
+            return (long)Math.Pow(n, 3);
+
+
+            // my failed solution, does not work
+            //long[][] resultArray = new long[n][];
+            //n = 3;
+            //for (long i = 0; i < n; i++)
+            //{
+            //    var newArray = new long[n];
+            //    resultArray[i] = newArray;
+            //    for (long j = 0; j < i+1; j++)
+            //    {
+            //        resultArray[i][j] = resultArray[i].Max() + (j * 2);
+            //    }
+            //}
+
+            //long sum = resultArray[n].Sum();
+
+            //return 0;
         }
     }
 }

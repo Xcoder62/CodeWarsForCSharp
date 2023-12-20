@@ -135,3 +135,5 @@ foreach (var item in Kata.OpenOrSenior(new[] { new[] { 18, 20 }, new[] { 61, 12 
     Console.WriteLine(item);
 
 }
+
+Console.WriteLine(Kata.RowSumOddNumbers(3));
